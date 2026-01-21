@@ -1,8 +1,8 @@
 ## FortiGate Firewall Policy Audit (API + Python)
 
-Este repo salió de una situación bastante común: te piden “limpiar” reglas de firewall en un entorno grande, pero no tienes una herramienta de auditoría/hitcount a mano.
+Este repo salió de una situación bastante común: nos piden “limpiar” reglas de firewall en un entorno grande, pero no tenemos una herramienta de auditoría/hitcount a mano.
 
-Cuando hay varios firewalls en producción y cientos de policies, revisar una por una es lento, propenso a errores y siempre queda la duda de “¿esto de verdad no se usa o simplemente no lo vi pasar?”.
+Cuando hay varios firewalls en producción y cientos de policies, revisar una por una es lento y propenso a errores
 
 La idea acá fue armar algo simple y útil:
 - Sacar **estadísticas de uso** (bytes/packets/first-used/last-used) desde el endpoint *monitor*
