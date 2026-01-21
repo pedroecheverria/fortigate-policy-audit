@@ -27,7 +27,6 @@ La idea acá fue armar algo simple y útil:
 
 ## Estructura del proyecto
 
-```
 - **audit.py**: runner principal. Llama a monitor + cmdb, hace el merge y genera los CSVs (`output_monitor.csv`, `output_cmdb.csv`, `pre_final.csv`).
 - **fg_audit/env.py**: carga variables desde `.env` y valida que existan las claves necesarias.
 - **fg_audit/client.py**: cliente HTTP para FortiGate (maneja base URL, token, params, errores).
@@ -38,7 +37,7 @@ La idea acá fue armar algo simple y útil:
 - **fg_audit/utils.py**: helpers generales (por ejemplo conversión/format de timestamps).
 - **report_from_prefinal.py**: genera el PDF final leyendo `pre_final.csv` (tráfico vs no tráfico + reglas potencialmente permisivas).
 
-````
+---
 
 ## Requisitos
 
