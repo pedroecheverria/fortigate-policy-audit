@@ -1,0 +1,21 @@
+# --- secrets ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.envrc
+
+# --- outputs
+*.csv
+#*.pdf
+
+# --- editor ---
+.vscode/
+.idea/
+.DS_Store
