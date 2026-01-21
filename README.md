@@ -1,5 +1,4 @@
-```md
-# FortiGate Firewall Policy Audit (API + Python)
+## FortiGate Firewall Policy Audit (API + Python)
 
 Este repo salió de una situación bastante común: te piden “limpiar” reglas de firewall en un entorno grande, pero no tienes una herramienta de auditoría/hitcount a mano.
 
@@ -40,11 +39,6 @@ La idea acá fue armar algo simple y útil:
 - **report_from_prefinal.py**: genera el PDF final leyendo `pre_final.csv` (tráfico vs no tráfico + reglas potencialmente permisivas).
 
 ````
-
-- `audit.py`: corre todo (monitor + cmdb + merge)
-- `report_from_prefinal.py`: toma `pre_final.csv` y arma el PDF
-
----
 
 ## Requisitos
 
